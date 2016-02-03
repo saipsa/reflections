@@ -6,3 +6,6 @@ why?
 to keep track of history. And to know it is git repository and can be version controlled.
 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+staging area = area which contains files that can be committed. it is subset of working directory.
+Value offered: can chose to ignore enviornment config files from commit
