@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when repo is initialized meta data files to keep track of versions is created.
+
+why?
+to keep track of history. And to know it is git repository and can be version controlled.
+
+
