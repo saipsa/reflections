@@ -20,3 +20,16 @@ What is the benefit of having a copy of the last known state of the remote store
 		directly push your changes to remote. No way to determine if the new changes break anything. the remote commit history is fragile. Always breaking.
 	benfit
 		Robust and stable commits go into main branch of remote
+		
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	How?
+		code base at one location
+		I want to work on some feature, I will copy the code to my local machine
+		Make changes.
+		Then merge changes using diff -u command
+	what would be easier?
+		Not knowing git commands
+	what would be harder?
+		Very hard to merge changes.
+
+		
