@@ -1,1 +1,22 @@
 Can you see this on your local machine?
+	yeah bitch
+	
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	Because the local changes might need merging with the remote commit. It would be nice to do it one time rather than during intermediate steps.
+	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	FORK
+		1.multiple repo
+		2.No permission to push/pull in original repo
+	CLONE
+		1.multiple copies of single repo
+		2.For collaboration
+	BRANCH
+		1.single repo
+		2.For Bug fix/new feature
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	what if it is not?
+		directly push your changes to remote. No way to determine if the new changes break anything. the remote commit history is fragile. Always breaking.
+	benfit
+		Robust and stable commits go into main branch of remote
