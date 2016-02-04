@@ -9,3 +9,37 @@ to keep track of history. And to know it is git repository and can be version co
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area = area which contains files that can be committed. it is subset of working directory.
 Value offered: can chose to ignore enviornment config files from commit
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Many logical changes in working directory. add only one logical change in staging area : commit.
+without staging area. have to make only one logical change at a time. now we can make many logical changes and add only one logical chane to staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+situations and how branches help
+	when experimenting a new feature
+		the master branch remains clean and doesn't has to know about the experiments done
+	when two different teams working
+		both have their own codebase otherwise they would be busy fixing conflicts than doing actual work after doing actual work, they can 		resolve the conflict
+		
+		
+How do the diagrams help you visualize the branch structure?
+	Well duh, diagram is visual representation of branch structure, so it helps visualise the branch structure by presenting the visual representation of branch structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	all changes made from the point they forked are merged. work done by two teams in different branches is merged into one.
+	why?
+		because that is how it is done.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	pros:
+		saves time
+	cons:
+		false positives
+		false negatives
+
+	
+
+	
